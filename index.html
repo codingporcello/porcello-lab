@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Porcello Lab 個人研究室，所有個人工具的統一入口。" />
+    <meta property="og:title" content="Porcello Lab" />
+    <meta property="og:description" content="個人研究室 Personal Research Hub" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://codingporcello.github.io/porcello-lab/" />
+    <meta property="og:image" content="https://codingporcello.github.io/porcello-lab/assets/avatar/og-image.png" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="theme-color" content="#bca8ff" />
+    <title>Porcello Lab</title>
+    <link rel="icon" type="image/png" href="assets/avatar/favicon.png" />
+    <link rel="apple-touch-icon" href="assets/avatar/apple-touch-icon.png" />
+    <link rel="manifest" href="manifest.webmanifest" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="apps.js" defer></script>
+    <script src="main.js" defer></script>
+  </head>
+  <body>
+    <main class="page-shell">
+      <header class="hero" aria-labelledby="site-title">
+        <div class="hero-topline">
+          <div class="brand-lockup">
+            <img class="brand-avatar" src="assets/avatar/avatar-square.png" alt="Porcello Lab 品牌頭像" />
+            <div>
+              <p class="eyebrow">個人研究室</p>
+              <h1 id="site-title">Porcello Lab</h1>
+              <p class="subtitle">Personal Research Hub</p>
+            </div>
+          </div>
+          <span class="status-pill" id="toolCount">0 Tools Online</span>
+        </div>
+      </header>
+
+      <section class="tools-section" aria-labelledby="tools-title">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Tools</p>
+            <h2 id="tools-title">研究工具入口</h2>
+          </div>
+        </div>
+        <div class="tool-grid" id="appGrid"></div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <span>Powered by Porcello Lab</span>
+      <span>Version 1.0</span>
+      <span>© <span id="year"></span></span>
+    </footer>
+  </body>
+</html>

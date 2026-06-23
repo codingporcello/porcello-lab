@@ -1,0 +1,9 @@
+{
+  "name": "porcello-lab",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "node scripts/build.js",
+    "check": "node --check apps.js && node --check main.js && node --check scripts/build.js"
+  }
+}
