@@ -64,6 +64,7 @@ h1, h2, p { margin-top: 0; }
   border: 2px solid rgba(188, 168, 255, 0.9);
   border-radius: 50%;
   object-fit: cover;
+  object-position: 46% 45%;
   box-shadow: 0 0 0 5px rgba(188, 168, 255, 0.13), 0 0 28px rgba(139, 220, 255, 0.24), 0 0 40px rgba(255, 143, 199, 0.16);
 }
 
