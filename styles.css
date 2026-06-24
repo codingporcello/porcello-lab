@@ -58,13 +58,13 @@ h1, h2, p { margin-top: 0; }
 .brand-lockup { display: flex; align-items: center; gap: 16px; }
 
 .brand-avatar {
-  width: 92px;
-  height: 92px;
+  width: 76px;
+  height: 76px;
   flex: 0 0 auto;
   border: 2px solid rgba(188, 168, 255, 0.9);
   border-radius: 50%;
   object-fit: cover;
-  box-shadow: 0 0 0 6px rgba(188, 168, 255, 0.13), 0 0 34px rgba(139, 220, 255, 0.28), 0 0 48px rgba(255, 143, 199, 0.18);
+  box-shadow: 0 0 0 5px rgba(188, 168, 255, 0.13), 0 0 28px rgba(139, 220, 255, 0.24), 0 0 40px rgba(255, 143, 199, 0.16);
 }
 
 .eyebrow { margin-bottom: 8px; color: #ffd2ea; font-size: 0.78rem; font-weight: 800; }
@@ -146,6 +146,6 @@ h1 { margin-bottom: 6px; font-size: clamp(2.1rem, 11vw, 4.5rem); line-height: 1;
   .page-shell { padding-top: 48px; }
   .hero { padding: 30px; }
   .hero-topline { grid-template-columns: minmax(0, 1fr) auto; align-items: start; }
-  .brand-avatar { width: 112px; height: 112px; }
+  .brand-avatar { width: 88px; height: 88px; }
   .tool-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 }
