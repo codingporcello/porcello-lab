@@ -23,4 +23,16 @@ const apps = [
     description: "分析偶像特典會互動與推活心理",
     url: "https://codingporcello.github.io/idol-psychology-lab/",
   },
+  {
+    name: "投資觀察日誌",
+    icon: "📊",
+    description: "整理投資觀察、交易紀錄與市場筆記的 Google 試算表",
+    url: "https://docs.google.com/spreadsheets/d/1ymwHR9LORK1_K66HEo2qjih2zNTVwDzgb_at7SHXiwE/edit?usp=sharing",
+  },
+  {
+    name: "【伊藤忠波段實驗】",
+    icon: "📝",
+    description: "記錄伊藤忠波段操作想法與實驗筆記的 Google 文件",
+    url: "https://docs.google.com/document/d/1bYgKOoj-EIMKuwODz5b9TF_VWDkGsnVZtcY2nL7im5M/edit?usp=sharing",
+  },
 ];
